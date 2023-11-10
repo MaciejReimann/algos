@@ -1,4 +1,4 @@
-import MinHeap from "@code/MinHeap";
+import { MinHeap } from "../code/MinHeap";
 
 test("min heap", function () {
     const heap = new MinHeap();
@@ -26,5 +26,3 @@ test("min heap", function () {
     expect(heap.delete()).toEqual(420);
     expect(heap.length).toEqual(0);
 });
-
-
